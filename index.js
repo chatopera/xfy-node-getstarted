@@ -3,7 +3,7 @@
  */
 const xfyclient = require('xfy-node');
 
-let file_name = "82ee0a11d9b71a1b8b93d15d2d9d257a_16.wav";
+let file_name = "627b62fb776f833bad37efaf55954e1f_16.wav";
 
 let params = {
     username: null, // 账号名称
@@ -14,7 +14,7 @@ let params = {
     // zh_tw:繁体中文
     // en_us:英语
     // 默认为zh_cn
-    lang: 'zh_cn',
+    lang: 'en_us',
     // 口音
     // mandarin:普通话
     // cantonese:粤语
@@ -24,9 +24,12 @@ let params = {
     // 8000, 16000, 默认为16000
     sample_rate: 16000,
     // 音频文件位置，绝对路径
-    audio_file: `data.vioces/${file_name}`
+    audio_file: `/home/hain/git/xfy-node-getstarted/data.vioces/${file_name}`
 }
 
-xfyclient.iat(params, function (result) {
-    console.log(result);
-})
+xfyclient.iat(params)
+	.then(function (result) {
+	    console.log('result', result);
+	}, function(err){
+	    console.log('err', err);
+	});
