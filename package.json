@@ -1,0 +1,21 @@
+{
+  "name": "xfy-node-getstarted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.oschina.net:ubiware/xfy-node-getstarted.git"
+  },
+  "keywords": [
+    "xfyun"
+  ],
+  "author": "hailiang.hl.wang@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "xfy-node": "^1.0.2"
+  }
+}
