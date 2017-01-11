@@ -8,7 +8,7 @@ Read ```https://www.npmjs.com/package/xfy-node```.
 
 ## 准备工作
 ```
-git clone git@git.oschina.net:ubiware/xfy-node-getstarted.git
+git clone git@github.com:Samurais/xfy-node-getstarted.git
 cd resources
 sudo unzip xfyun_Linux_voice_1135_5864ae2d.zip -d /opt/xfy-sdk
 ```
