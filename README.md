@@ -50,3 +50,5 @@ Sample Encoding: 16-bit Signed Integer PCM
 cd data.vioces
 find . -name "*.wav" -print0 | xargs -0 -I file sox file -r 16000 pro_16k/file
 ```
+
+[科大讯飞API 英语 - IAT 听写接口识别不准确 Node.js, Linux](http://bbs.xfyun.cn/forum.php?mod=viewthread&tid=22602&pid=95376&page=1&extra=#pid95376)
