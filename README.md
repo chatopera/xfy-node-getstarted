@@ -4,7 +4,7 @@
 > 仅支持Linux64, 仅支持听写接口
 Read ```https://www.npmjs.com/package/xfy-node```.
 
-![](https://github.com/Samurais/xfy-node-getstarted/tree/master/resources/1.png)
+![](https://raw.githubusercontent.com/Samurais/xfy-node-getstarted/master/resources/1.png)
 
 ## 准备工作
 ```
