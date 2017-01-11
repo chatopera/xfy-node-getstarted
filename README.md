@@ -29,3 +29,24 @@ node index.js
 ```
 阅读 index.js
 ```
+
+
+## Trouble Shooting
+
+### 转码
+
+> 官方案例的数据格式: sox --info wav/iflytek01.wav
+Input File     : 'wav/iflytek01.wav'
+Channels       : 1
+Sample Rate    : 16000
+Precision      : 16-bit
+Duration       : 00:00:04.36 = 69699 samples ~ 326.714 CDDA sectors
+File Size      : 139k
+Bit Rate       : 256k
+Sample Encoding: 16-bit Signed Integer PCM
+
+* 批量转码
+```
+cd data.vioces
+find . -name "*.wav" -print0 | xargs -0 -I file sox file -r 16000 pro_16k/file
+```
