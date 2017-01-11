@@ -3,7 +3,7 @@
  */
 const xfyclient = require('xfy-node');
 
-let file_name = "627b62fb776f833bad37efaf55954e1f_16.wav";
+let file_name = "pro_16k/627b62fb776f833bad37efaf55954e1f_16.wav";
 
 let params = {
     username: null, // 账号名称
